@@ -2,38 +2,38 @@ import React from 'react'
 
 import styles from './ecstacy.module.css'
 //images
-import blue2 from './ecstacy/blue2.jpg'
-import main from './ecstacy/main.jpg'
-import blue1 from './ecstacy/blue1.jpg'
-import blue3 from './ecstacy/blue3.jpg'
-import design1 from './ecstacy/design1.jpg'
-import anupama2 from './ecstacy/anupama2.jpeg'
-import anupreet2 from './ecstacy/anupreet2.jpeg'
-import arshdeep2c from './ecstacy/arshdeep2c.jpeg'
-import image1 from './ecstacy/l1.jpg'
-import image2 from './ecstacy/l2.jpg'
-import image3 from './ecstacy/l3.jpg'
-import image4 from './ecstacy/l4.jpg'
-import image5 from './ecstacy/l5.jpg'
-import image6 from './ecstacy/l6.jpg'
-import image7 from './ecstacy/l7.jpg'
-import image8 from './ecstacy/l8.jpg'
-import image9 from './ecstacy/l9.jpg'
-import image10 from './ecstacy/l10.jpg'
-import image11 from './ecstacy/l11.jpg'
-import image12 from './ecstacy/l12.jpg'
-import c1 from './ecstacy/c1.jpg'
-import c2 from './ecstacy/c2.jpg'
-import c3 from './ecstacy/c3.jpg'
+import blue2 from '.././ecstacy/blue2.jpg'
+import main from '.././ecstacy/main.jpg'
+import blue1 from '.././ecstacy/blue1.jpg'
+import blue3 from '.././ecstacy/blue3.jpg'
+import design1 from '.././ecstacy/design1.jpg'
+import anupama2 from '.././ecstacy/anupama2.jpeg'
+import anupreet2 from '.././ecstacy/anupreet2.jpeg'
+import arshdeep2c from '.././ecstacy/arshdeep2c.jpeg'
+import image1 from '.././ecstacy/l1.jpg'
+import image2 from '.././ecstacy/l2.jpg'
+import image3 from '.././ecstacy/l3.jpg'
+import image4 from '.././ecstacy/l4.jpg'
+import image5 from '.././ecstacy/l5.jpg'
+import image6 from '.././ecstacy/l6.jpg'
+import image7 from '.././ecstacy/l7.jpg'
+import image8 from '.././ecstacy/l8.jpg'
+import image9 from '.././ecstacy/l9.jpg'
+import image10 from '.././ecstacy/l10.jpg'
+import image11 from '.././ecstacy/l11.jpg'
+import image12 from '.././ecstacy/l12.jpg'
+import c1 from '.././ecstacy/c1.jpg'
+import c2 from '.././ecstacy/c2.jpg'
+import c3 from '.././ecstacy/c3.jpg'
 
 const Ecstacy = () => {
 
     return (
         <>
             <main>
-                <header>
+                <div className={styles.header}>
                     <div className={styles.title}>Ecstacy</div>
-                </header>
+                </div>
                 <section className={styles.landing}>
                     <div className={styles.introduction}>
                         <div className={styles.taglineContainer}>

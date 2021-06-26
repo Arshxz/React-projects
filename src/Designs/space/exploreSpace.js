@@ -1,13 +1,13 @@
 import React from 'react'
 
 import styles from './exploreSpace.module.css'
-import background from './images/milky-way.jpg'
+import background from '.././images/milky-way.jpg'
 
 const ExploreSpace = () => {
   
   return(
     <>
-      <header>
+      <div className={styles.header}>
         <div className={styles.title}>
           <h3 style={{fontFamily: "Lato"}}>EXPLORE BEYOND OUR PLANET</h3>
         </div>
@@ -19,7 +19,7 @@ const ExploreSpace = () => {
             <li><a className={styles.navlink} href="/">Time</a></li>
           </ul>
         </nav>
-      </header>
+      </div>
   
       <main>
         <section className={styles.presentation}>

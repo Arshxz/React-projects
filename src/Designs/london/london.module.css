@@ -7,13 +7,14 @@
 button {
   font-family: Lato, sans-serif;
 }
-header {
+.header {
   display: flex;
   color: #fff;
   height: 10vh;
   width: 100%;
   margin: auto;
   align-items: center;
+  position: absolute;
 }
 .title,
 nav {

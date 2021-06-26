@@ -2,7 +2,7 @@ import React, { useRef, useEffect } from 'react'
 import {TweenMax} from 'gsap'
 
 import styles from './london.module.css'
-import background from './images/london-dark.jpg'
+import background from '.././images/london-dark.jpg'
 
 
 const London = () => {
@@ -33,7 +33,7 @@ const London = () => {
 
   return(
     <>
-      <header>
+      <div className={styles.header}>
         <div className={styles.title}>VOYAGE</div>
         <nav>
           <ul className={styles.navLinks}>
@@ -42,7 +42,7 @@ const London = () => {
             <li><a className={styles.navLink} href="/">CONTACT US</a></li>
           </ul>
         </nav>
-      </header>
+      </div>
       <main>
         <section className={styles.presentation}>
           <div style={{backgroundImage: "url(" + background + ")", width: '100%', height: '100%'}} className={styles.introduction}>

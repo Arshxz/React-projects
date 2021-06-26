@@ -8,14 +8,14 @@ body {
   font-family: poppins, sans-serif;
   overflow-x: hidden;
 }
-header {
+.header {
   height: 10vh;
   color: rgb(255, 255, 255);
   display: flex;
   position: sticky;
   top: 0;
   z-index: 99;
-  background-image: url(./ecstacy/copy.png);
+  background-image: url(.././ecstacy/copy.png);
   border-bottom: 1px solid rgb(0, 0, 0);
 }
 .title {
@@ -32,10 +32,10 @@ header {
 }
 
 .landing {
-  min-height: 91vh;
+  min-height: 95vh;
   flex-direction: column;
   display: flex;
-  background-image: url(./ecstacy/dots.jpg),
+  background-image: url(.././ecstacy/dots.jpg),
     linear-gradient(
       to bottom right,
       rgb(0, 0, 0),
@@ -189,7 +189,7 @@ img {
 .section2 {
   display: flex;
   height: 115vh;
-  background-image: url(./ecstacy/dots.jpg),
+  background-image: url(.././ecstacy/dots.jpg),
     linear-gradient(
       to top right,
       rgb(0, 0, 0),
@@ -334,7 +334,7 @@ img {
 }
 .teamworkImages {
   flex: 2;
-  background-image: url(./ecstacy/dots.jpg);
+  background-image: url(.././ecstacy/dots.jpg);
 }
 .team {
   margin-top: 70px;
@@ -436,7 +436,7 @@ img {
   height: 90vh;
   top: 9.99vh;
   position: sticky;
-  background-image: url(./ecstacy/gradient.jpg);
+  background-image: url(.././ecstacy/gradient.jpg);
 }
 .pHeader {
   padding-top: 50px;
@@ -646,7 +646,7 @@ img {
   align-items: center;
   justify-content: center;
   color: #f3f0f8;
-  background-image: url(./ecstacy/abstract-1780378_1920.png);
+  background-image: url(.././ecstacy/abstract-1780378_1920.png);
 }
 .companyContainer {
   display: flex;
@@ -710,7 +710,7 @@ a {
   color: #5d5d5d;
 }
 .stickyBlur {
-  height: 127vh;
+  height: 129.5vh;
   position: absolute;
   display: flex;
   top: 415px;
@@ -803,7 +803,7 @@ header .title {
 
 .landing {
   height: 90vh;
-  background: url(./ecstacy/dots.jpg),
+  background: url(.././ecstacy/dots.jpg),
     linear-gradient(
       to bottom right,
       rgb(0, 0, 0),
@@ -875,7 +875,7 @@ section button {
 
 .section-2 {
   color: #fff;
-  background: url(./ecstacy/dots.jpg),
+  background: url(.././ecstacy/dots.jpg),
     linear-gradient(
       to top right,
       rgb(0, 0, 0),
