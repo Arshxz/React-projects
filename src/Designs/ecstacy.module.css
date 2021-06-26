@@ -1,0 +1,1025 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: poppins, sans-serif;
+}
+body {
+  font-family: poppins, sans-serif;
+  overflow-x: hidden;
+}
+header {
+  height: 10vh;
+  color: rgb(255, 255, 255);
+  display: flex;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  background-image: url(./ecstacy/copy.png);
+  border-bottom: 1px solid rgb(0, 0, 0);
+}
+.title {
+  margin: auto;
+  letter-spacing: 15px;
+  font-size: 1.7rem;
+  font-weight: 400;
+  background-color: rgba(255, 255, 255, 0.673);
+  width: 100%;
+  height: 10vh;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.landing {
+  min-height: 91vh;
+  flex-direction: column;
+  display: flex;
+  background-image: url(./ecstacy/dots.jpg),
+    linear-gradient(
+      to bottom right,
+      rgb(0, 0, 0),
+      rgb(0, 0, 0),
+      rgb(0, 0, 0),
+      rgb(0, 0, 0, 1),
+      rgb(41, 50, 145, 1)
+    );
+}
+.introduction {
+  display: flex;
+  flex: 4;
+}
+.taglineContainer {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tagline {
+  color: #fff;
+  margin: 50px;
+}
+.intro {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tagline {
+  font-size: 4.1rem;
+  font-weight: 400;
+}
+.landingContainer {
+  margin: 10px;
+  margin-right: 70px;
+}
+.introText {
+  font-size: 1.4rem;
+  font-weight: 200;
+  padding: 10px;
+  letter-spacing: 1px;
+  line-height: 40px;
+  color: #fff;
+}
+.button1 {
+  margin-top: 20px;
+}
+button {
+  color: #000;
+  background-color: #fff;
+  border: none;
+  text-align: center;
+  padding: 15px 40px;
+  border-radius: 30px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  word-spacing: 6px;
+}
+.startCreating {
+  transition: 2s ease linear;
+}
+.startCreating:hover {
+  background-color: rgb(30, 101, 243);
+  color: rgb(255, 255, 255);
+}
+.startCreatingBlack {
+  color: #fff;
+  background-color: rgb(0, 0, 0);
+}
+.startCreatingBlack:hover {
+  background-color: rgb(0, 85, 255);
+}
+.landingImages {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  align-items: baseline;
+}
+img {
+  height: 100%;
+}
+.img1 {
+  position: relative;
+  bottom: -40px;
+  left: -20px;
+}
+.img2 {
+  position: relative;
+  bottom: 1px;
+  margin-left: 40px;
+  margin-right: 7px;
+  z-index: 1;
+}
+.img3 {
+  position: relative;
+}
+.img4 {
+  position: relative;
+}
+/* @media screen and (max-width: 900px) {
+  .stickyBlur {
+    display: none;
+    opacity: 0;
+  }
+  .communityContainers {
+    overflow: none;
+  }
+  .cc1 {
+    width: 100%;
+  }
+  .cc2 {
+    display: none;
+  }
+  .cc3 {
+    display: none;
+  }
+  .section3 {
+    display: none;
+    overflow: none;
+  }
+  .section2 {
+    overflow: none;
+  }
+  .landing {
+    overflow: none;
+  }
+  .projects {
+    overflow: none;
+  }
+  .p-top {
+    overflow: none;
+  }
+  .community {
+    overflow: none;
+  }
+  .security {
+    overflow: none;
+  }
+  .company {
+    overflow: none;
+  }
+  .footer {
+    overflow: none;
+  }
+  img {
+    display: none;
+  }
+} */
+.section2 {
+  display: flex;
+  height: 115vh;
+  background-image: url(./ecstacy/dots.jpg),
+    linear-gradient(
+      to top right,
+      rgb(0, 0, 0),
+      rgb(0, 0, 0),
+      rgb(0, 0, 0, 1),
+      rgb(41, 50, 145, 1)
+    );
+}
+.featuresImage {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex: 4;
+}
+.imgF {
+  padding: auto;
+  margin: auto;
+  justify-content: center;
+  padding-left: 173px;
+  z-index: 1;
+  padding-top: 5px;
+  width: 730px;
+  height: 340px;
+}
+.featuresHeading {
+  font-size: 3.1rem;
+  font-weight: 100;
+}
+.features {
+  flex: 3;
+  color: #fff;
+  position: relative;
+  align-items: center;
+  margin: auto;
+}
+.featuresMore {
+  font-size: 1.2rem;
+  font-weight: 100;
+  padding: 10px;
+  letter-spacing: 0px;
+  line-height: 30px;
+}
+.container {
+  margin-right: 5vw;
+}
+.button2 {
+  margin-top: 10px;
+}
+.section3 {
+  height: 115vh;
+  display: flex;
+  width: max(100%);
+  background-color: #f0f1f5;
+}
+.teamworkMain {
+  flex: 3;
+  position: relative;
+}
+.teamworkContainer {
+  width: 85%;
+  margin: auto;
+  margin-top: 65px !important;
+}
+.teamworkTitle {
+  font-size: 3.1rem;
+  font-weight: 400;
+}
+.teamworkMore {
+  margin-top: 25px;
+  font-size: 1.2rem;
+  font-weight: 100;
+  padding: 10px;
+  letter-spacing: 0px;
+  line-height: 30px;
+}
+.teamworkPartners {
+  flex: 4;
+  display: flex;
+  border-left: 1px solid rgb(165, 165, 165);
+  border-right: 1px solid rgb(165, 165, 165);
+}
+.column1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid rgb(165, 165, 165);
+}
+.column2 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid rgb(165, 165, 165);
+}
+.column3 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.row11 {
+  flex: 1;
+  flex-direction: column;
+  border-bottom: 1px solid rgb(165, 165, 165);
+  position: relative;
+  overflow: hidden;
+}
+.row11:hover .postContainer1 {
+  transform: translate(0, 0);
+  transition-duration: 0.3s;
+}
+.row12 {
+  flex: 1;
+  flex-direction: column;
+  border-bottom: 1px solid rgb(165, 165, 165);
+  position: relative;
+  overflow: hidden;
+}
+.row12:hover .postContainer2 {
+  transform: translate(0, 0);
+  transition-duration: 0.3s;
+}
+.row13 {
+  flex: 1;
+  flex-direction: column;
+  border-bottom: 1px solid rgb(165, 165, 165);
+  position: relative;
+  overflow: hidden;
+}
+.row13:hover .postContainer3 {
+  transform: translate(0%, 0);
+  transition-duration: 0.3s;
+}
+.row2 {
+  flex: 1;
+  flex-direction: column;
+  border-bottom: 1px solid rgb(165, 165, 165);
+  position: relative;
+}
+.row3 {
+  flex: 1;
+  flex-direction: column;
+  position: relative;
+}
+.teamworkImages {
+  flex: 2;
+  background-image: url(./ecstacy/dots.jpg);
+}
+.team {
+  margin-top: 70px;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.teamCircle {
+  border-radius: 50%;
+  overflow: hidden;
+}
+.teamImageContainer {
+  height: 100px;
+  width: 100px;
+  background-color: #c42d2d38;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.teamName {
+  margin-top: 25px;
+  font-size: 14px;
+  color: #292929;
+}
+.teamMail {
+  margin-top: 2px;
+  font-size: 12px;
+  color: #7b7b7b;
+}
+.postContainer1 {
+  background-color: #ffffff;
+  position: absolute;
+  height: 89px;
+  bottom: 0px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translate(-101%, 0);
+}
+.postContainer2 {
+  background-color: #ffffff;
+  position: absolute;
+  height: 89px;
+  bottom: 0px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translate(-101%, 0);
+}
+.postContainer3 {
+  background-color: #ffffff;
+  position: absolute;
+  height: 89px;
+  bottom: 0px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translate(-101%, 0);
+}
+.postContainerInner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.namePost {
+  flex: 1;
+  margin-left: 10px;
+}
+.name {
+  font-size: 12px;
+}
+.post {
+  font-size: 10px;
+  color: #7b7b7b;
+}
+.teamImageContainerSmall {
+  height: 40px;
+  width: 40px;
+}
+.teamCircle {
+  margin: 0 10px;
+  margin-left: 30px;
+}
+.pTop {
+  height: 329vh;
+  width: 100%;
+  position: absolute;
+}
+.pContainer {
+  width: 100%;
+  height: 90vh;
+  top: 9.99vh;
+  position: sticky;
+  background-image: url(./ecstacy/gradient.jpg);
+}
+.pHeader {
+  padding-top: 50px;
+}
+.pHeader {
+  position: sticky;
+  top: 13vh;
+  margin-left: 50px;
+  font-size: 3.5rem;
+  font-weight: 800px;
+  color: #fff;
+}
+.projects {
+  height: 329vh;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  background-color: #000;
+}
+.projectsR1 {
+  flex: 1;
+  display: flex;
+}
+.projectsR2 {
+  flex: 1.3;
+  display: flex;
+  margin: 0px 50px;
+}
+.projectsR3 {
+  flex: 1;
+  display: flex;
+}
+.r1Container {
+  height: auto;
+  margin-top: 300px;
+  width: 100%;
+  margin-bottom: 200px;
+}
+.r2Container {
+  height: auto;
+  margin-top: 100px;
+  width: 100%;
+}
+.r3Container {
+  height: auto;
+  margin-top: 300px;
+  width: 100%;
+  margin-bottom: 200px;
+}
+.landingTemplates {
+  width: 100%;
+  height: 350px;
+  margin-bottom: 50px;
+}
+.community {
+  height: 107vh;
+  background-color: rgb(0, 0, 0);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+.communityTitle {
+  flex: 1;
+  display: flex;
+  background-color: rgb(0, 0, 0);
+  border-bottom: 1px solid rgb(165, 165, 165);
+}
+.cTitle {
+  flex: 1;
+  display: flex;
+  margin-left: 50px;
+  font-size: 2.7rem;
+  font-weight: 400;
+  align-items: center;
+}
+.cPara {
+  flex: 1.2;
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: 100;
+  letter-spacing: 0px;
+  line-height: 30px;
+}
+.communityContainers {
+  display: flex;
+  flex: 2.8;
+}
+.cc1 {
+  flex: 1;
+  border-right: 1px solid rgb(165, 165, 165);
+}
+.cc2 {
+  flex: 1;
+  border-right: 1px solid rgb(165, 165, 165);
+}
+.cc3 {
+  flex: 1;
+}
+.cbox {
+  margin: 45px 65px;
+  background-color: #000;
+  flex: 1;
+}
+.cbox3 {
+  margin: 45px 50px;
+  background-color: #000;
+  flex: 1;
+}
+.cHeading {
+  margin-bottom: 30px;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+.cPic {
+  margin-left: 65px;
+}
+.cImages {
+  width: 400px;
+  height: 280px;
+}
+.security {
+  height: 72vh;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(25, 25, 25);
+  color: rgb(245, 244, 244);
+}
+.securityR1 {
+  flex: 1;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  border-bottom: 1px solid rgb(165, 165, 165);
+}
+.securityR2 {
+  flex: 1;
+  width: 90%;
+  margin: auto;
+  display: flex;
+}
+.sTitleContainer {
+  flex: 1;
+  align-items: center;
+  display: flex;
+}
+.sMoreCotainer {
+  flex: 2;
+  align-items: center;
+  display: flex;
+}
+.sTitle {
+  font-size: 2rem;
+  font-weight: 400;
+}
+.sMore {
+  font-size: 1.2rem;
+  font-weight: 100;
+  letter-spacing: 0px;
+  line-height: 30px;
+}
+.template {
+  height: 110vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #fbfafd;
+}
+.templateUpper {
+  flex: 1;
+  display: flex;
+}
+.titleContainer {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.templateTitle {
+  font-size: 3rem;
+  font-weight: 400;
+  letter-spacing: 2.5px;
+}
+.templateContainer {
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+}
+.templateMore {
+  margin-left: 100px;
+  position: relative;
+  bottom: 10px;
+}
+.templatePara {
+  font-size: 1.2rem;
+  font-weight: 100;
+  letter-spacing: 0px;
+  line-height: 30px;
+  padding-bottom: 10px;
+}
+.templateLower {
+  flex: 3;
+}
+.company {
+  height: 70vh;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #f3f0f8;
+  background-image: url(./ecstacy/abstract-1780378_1920.png);
+}
+.companyContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.companyTitle {
+  font-size: 8rem;
+  font-weight: 550;
+  letter-spacing: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.companyMore {
+  margin-top: -25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  font-weight: 400;
+  letter-spacing: 2.5px;
+  padding-bottom: 20px;
+}
+footer {
+  height: 20vh;
+  display: flex;
+  background-color: #000;
+}
+.fInner {
+  margin: 12px 20px;
+  border-radius: 50px;
+  background-color: rgb(15, 15, 15);
+  border: 1px solid black;
+  flex: 1;
+  display: flex;
+}
+.fHeader {
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+  font-size: 2.2rem;
+  letter-spacing: 17px;
+  flex: 1;
+}
+.fIcons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex: 1;
+}
+.icons {
+  margin-right: 90px;
+  transform: scale(2);
+  color: #5d5d5d;
+}
+a {
+  text-decoration: none;
+}
+.ecstacy {
+  color: #5d5d5d;
+}
+.stickyBlur {
+  height: 127vh;
+  position: absolute;
+  display: flex;
+  top: 415px;
+  left: 235px;
+  width: 570px;
+  z-index: 0;
+}
+.stickyContainer {
+  height: 352px;
+  display: flex;
+  position: sticky;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  font-weight: 600;
+  letter-spacing: 20px;
+  -webkit-text-stroke: 5px rgba(255, 0, 230, 0.251);
+  fill: none;
+  stroke: black;
+  stroke-width: 5px;
+  stroke-linejoin: round;
+  top: 37%;
+  width: 100%;
+  background-color: rgba(68, 67, 67, 0.653);
+  border: 2px solid rgb(64, 64, 160);
+  border-radius: 3px;
+}
+/* * {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+h1 {
+  font-size: clamp(1.9rem, 9vw, 4.1rem);
+  font-weight: 500;
+}
+h2 {
+  font-size: clamp(1.9rem, 9vw, 3.4rem);
+  font-weight: 500;
+}
+h3 {
+}
+h4 {
+  font-size: clamp(0.8rem, 3vw, 1.4rem);
+  font-weight: 500;
+}
+h5 {
+}
+p {
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+section .features {
+  width: 90%;
+  margin-inline: auto;
+  margin-block: 5vh;
+}
+section .features-heading {
+  width: 90%;
+  margin-block: 2vh;
+}
+section .features-more {
+  width: 85%;
+  margin-block: 2vh 3vh;
+}
+section .features-image {
+  width: min(90%, 400px);
+  display: flex;
+  align-items: baseline;
+}
+
+header {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: max(100%);
+  z-index: 1;
+  position: sticky;
+  top: 0;
+}
+header .title {
+  font-size: clamp(1.3em, 5vh, 2em);
+  margin: 0.7rem 0;
+}
+
+.landing {
+  height: 90vh;
+  background: url(./ecstacy/dots.jpg),
+    linear-gradient(
+      to bottom right,
+      rgb(0, 0, 0),
+      rgb(0, 0, 0, 1),
+      rgb(41, 50, 145, 1)
+    );
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  position: relative;
+  color: #fff;
+}
+section .introduction {
+  width: max(79%);
+  margin-inline: auto;
+}
+section .intro-text {
+  width: min(90%, 550px);
+  margin-block: 10px 20px;
+  line-height: 1.2rem;
+  letter-spacing: 0.1px;
+  word-spacing: 2px;
+}
+section .tagline-container {
+  width: min(100%, 550px);
+  margin-block: 3em 0;
+}
+section .landing-images .img1,
+.img3,
+.img4 {
+  display: none;
+}
+section .img2 {
+  display: flex;
+  width: min(100%, 400px);
+  display: block;
+  margin-inline: auto;
+  margin-block: 60px 0;
+}
+section button {
+  background-color: #fff;
+  color: #000;
+  border: none;
+  border-radius: 50px;
+  font-size: clamp(0.7em, 3.5vw, 1.2em);
+  padding: 1em 2.5em;
+}
+.start-creating {
+  transition: 0.1s ease;
+}
+.start-creating:hover {
+  background-color: rgb(30, 101, 243);
+  color: rgb(255, 255, 255);
+}
+.start-creating-black {
+  color: #fff;
+  transition: 0.1s ease;
+  background-color: rgb(0, 0, 0);
+}
+.start-creating-black:hover {
+  background-color: rgb(0, 85, 255);
+}
+.section-2 {
+  height: 100vh;
+}
+.sticky-blur {
+  display: none;
+}
+
+.section-2 {
+  color: #fff;
+  background: url(./ecstacy/dots.jpg),
+    linear-gradient(
+      to top right,
+      rgb(0, 0, 0),
+      rgb(0, 0, 0),
+      rgb(0, 0, 0, 1),
+      rgb(41, 50, 145, 1)
+    );
+  background-color: rgb(28, 31, 34);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 90vh;
+}
+.section-3 {
+  height: 90vh;
+  background-color: rgba(250, 235, 215, 0.327);
+}
+.teamwork-main {
+  width: 90%;
+  margin: auto;
+}
+.teamwork-title {
+  padding-block: 10px 0;
+}
+.teamwork-more {
+  margin: 10px 0 20px 0;
+}
+.teamwork-partners {
+  display: flex;
+  border-block: 1px solid rgb(165, 165, 165);
+  margin-block: 20px;
+}
+.column2 {
+  border-inline: 1px solid rgb(165, 165, 165);
+}
+.column1,
+.column2,
+.column3 {
+  width: 100%;
+}
+.row11 {
+  position: relative;
+  overflow: hidden;
+}
+.row11:hover .post-container1 {
+  transform: translate(0, 0);
+  transition-duration: 0.3s;
+}
+.row12 {
+  flex: 1;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+.row12:hover .post-container2 {
+  transform: translate(0, 0);
+  transition-duration: 0.3s;
+}
+.row13 {
+  position: relative;
+  overflow: hidden;
+}
+.row13:hover .post-container3 {
+  transform: translate(0%, 0);
+  transition-duration: 0.3s;
+}
+.team {
+  max-width: 100%;
+  display: flex;
+  margin-block: 30px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.team-circle {
+  border-radius: 50%;
+  overflow: hidden;
+}
+.team-image-container {
+  height: 60px;
+  width: 60px;
+  background-color: #c42d2d38;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.team-name {
+  margin-top: 25px;
+  font-size: 12px;
+  color: #292929;
+}
+.team-mail {
+  margin-top: 2px;
+  font-size: 9px;
+  color: #7b7b7b;
+}
+.post-container1 {
+  background-color: #ffffff;
+  position: absolute;
+  height: 50px;
+  bottom: 0px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translate(-101%, 0);
+}
+.post-container2 {
+  background-color: #ffffff;
+  position: absolute;
+  height: 89px;
+  bottom: 0px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translate(-101%, 0);
+}
+.post-container3 {
+  background-color: #ffffff;
+  position: absolute;
+  height: 89px;
+  bottom: 0px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translate(-101%, 0);
+}
+.name-post {
+  flex: 1;
+}
+.name {
+  font-size: 12px;
+}
+.post {
+  font-size: 10px;
+  color: #7b7b7b;
+}
+.team-image-container-small {
+  height: 30px;
+  width: 30px;
+}
+.team-circle {
+  margin: 0 10px;
+  margin-left: 30px;
+} */

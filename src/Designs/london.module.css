@@ -1,0 +1,408 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Lato, sans-serif;
+}
+button {
+  font-family: Lato, sans-serif;
+}
+header {
+  display: flex;
+  color: #fff;
+  height: 10vh;
+  width: 100%;
+  margin: auto;
+  align-items: center;
+}
+.title,
+nav {
+  display: flex;
+}
+.title {
+  flex: 2;
+  margin-left: 150px;
+  margin-right: -50px;
+  font-size: x-large;
+  letter-spacing: 19px;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff,
+    0 0 50px #fff, 0 0 60px #fff, 0 0 70px #fff, 0 0 80px #fff, 0 0 90px #fff,
+    0 0 100px #fff, 0 0 110px #fff, 0 0 120px #fff, 0 0 130px #fff,
+    0 0 140px #fff, 0 0 150px #fff, 0 0 160px #fff, 0 0 170px #fff,
+    0 0 180px #fff, 0 0 190px #fff, 0 0 200px #fff, 0 0 210px #fff,
+    0 0 220px #fff, 0 0 230px #fff, 0 24120px #fff;
+}
+nav {
+  flex: 3;
+}
+.navLinks {
+  display: flex;
+  list-style: none;
+}
+.navLink {
+  text-decoration: none;
+  color: #fff;
+  margin: 35px;
+  padding: 5px 15px 5px 15px;
+  letter-spacing: 2px;
+}
+.navLink:hover {
+  color: rgb(211, 202, 195);
+}
+.presentation,
+header {
+  position: absolute;
+  background-size: cover;
+}
+.presentation {
+  /*background: url(/images/london-dark.jpg);*/
+  height: 100vh;
+  width: 100%;
+  z-index: -1;
+  animation-name: bgimage;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+@keyframes bgimage {
+  0% {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+    /* url(/images/london-dark.jpg); */
+  }
+  90% {
+    background-image: linear-gradient(
+      rgba(90, 49, 39, 0.03),
+      rgba(90, 49, 39, 0.03)
+    );
+    /* url(/images/london-dark.jpg); */
+  }
+  91% {
+    background-image: linear-gradient(
+      rgba(90, 49, 39, 0.05),
+      rgba(90, 49, 39, 0.05)
+    );
+    /* url(/images/london-dark.jpg); */
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+  }
+  92% {
+    background-image: linear-gradient(
+      rgba(90, 49, 39, 0.08),
+      rgba(90, 49, 39, 0.08)
+    );
+    /* url(/images/london-dark.jpg); */
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+  }
+  93% {
+    background-image: linear-gradient(
+      rgba(90, 49, 39, 0.1),
+      rgba(90, 49, 39, 0.1)
+    );
+    /* url(/images/london-dark.jpg); */
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+  }
+  94% {
+    background-image: linear-gradient(
+      rgba(90, 49, 39, 0.12),
+      rgba(90, 49, 39, 0.12)
+    );
+    /* url(/images/london-dark.jpg); */
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+  }
+  95% {
+    background-image: linear-gradient(
+      rgba(90, 49, 39, 0.13),
+      rgba(90, 49, 39, 0.13)
+    );
+    /* url(/images/london-dark.jpg); */
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+  }
+  96% {
+    background-image: linear-gradient(
+      rgba(90, 49, 39, 0.14),
+      rgba(90, 49, 39, 0.14)
+    );
+    /* url(/images/london-dark.jpg); */
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+  }
+  97% {
+    background-image: linear-gradient(
+      rgba(90, 49, 39, 0.15),
+      rgba(90, 49, 39, 0.1.5)
+    );
+    /* url(/images/london-dark.jpg); */
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+  }
+  98% {
+    background-image: linear-gradient(
+      rgba(90, 49, 39, 0.17),
+      rgba(90, 49, 39, 0.17)
+    );
+    /* url(/images/london-dark.jpg) */
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+  }
+  99% {
+    background-image: linear-gradient(
+      rgba(90, 49, 39, 0.18),
+      rgba(90, 49, 39, 0.18)
+    );
+    /* url(/images/london-dark.jpg); */
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+  }
+  100% {
+    background-image: linear-gradient(
+      rgba(90, 49, 39, 0.2),
+      rgba(90, 49, 39, 0.2)
+    );
+    /* url(/images/london-dark.jpg); */
+  }
+}
+/* .introduction {
+  color: #fff;
+  position: absolute;
+  top: 25%;
+  left: 5%;
+  text-align: left;
+} */
+.introText {
+  font-size: 20px;
+  letter-spacing: 1.2px;
+  word-spacing: 2.2px;
+  animation-name: first-text;
+  animation-duration: 8s;
+  animation-delay: 0.5s;
+  animation-fill-mode: backwards;
+  color: #fff;
+  position: absolute;
+  top: 25%;
+  left: 5%;
+  text-align: left;
+}
+/*@keyframes first-text {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}*/
+@keyframes first-text {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 1;
+  }
+  55% {
+    opacity: 0.2;
+  }
+  80% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.cta {
+  margin-top: 10px;
+  animation-name: button1;
+  animation-duration: 8s;
+  animation-fill-mode: backwards;
+  animation-delay: 0.5s;
+}
+/* @keyframes button1 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+} */
+@keyframes button1 {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  55% {
+    opacity: 0.2;
+  }
+  80% {
+    opacity: 0.2;
+  }
+  97% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.button {
+  background: #fff;
+  border: #fff;
+  padding: 13px 35px;
+  border-radius: 25px;
+  border: transparent;
+  cursor: pointer;
+  font-size: 15px;
+  position: relative;
+  transition: 0.3s;
+}
+.button:hover {
+  background-color: rgba(0, 0, 0, 0.408);
+  color: #fff;
+  box-shadow: 0 15px 16px rgba(255, 255, 255, 0.145),
+    0 15px 50px 16px rgba(255, 255, 255, 0.108);
+}
+.introduction2 {
+  position: absolute;
+  color: #fff;
+  top: 60%;
+  left: 58.5%;
+  font-size: large;
+  text-align: left;
+}
+.or {
+  animation-name: or;
+  animation-duration: 4.3s;
+  animation-delay: 3s;
+  animation-fill-mode: both;
+}
+/* @keyframes or {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+} */
+@keyframes or {
+  0% {
+    opacity: 0;
+  }
+  15% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 1;
+  }
+  45% {
+    opacity: 0.2;
+  }
+  80% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.rest {
+  animation-name: rest;
+  animation-duration: 6s;
+  animation-delay: 5s;
+  animation-fill-mode: backwards;
+  opacity: 0;
+  margin-top: -20px;
+}
+/*@keyframes rest {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}*/
+/* @keyframes rest {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+} */
+.cta2 {
+  margin-top: 5px;
+  text-align: right;
+  animation-name: button2;
+  animation-duration: 5s;
+  animation-delay: 7s;
+  margin-top: 25px;
+  animation-fill-mode: backwards;
+}
+/*@keyframes button2 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}*/
+@keyframes button2 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.button2 {
+  background: #fff;
+  border: #fff;
+  padding: 13px 35px;
+  border-radius: 25px;
+  border: transparent;
+  cursor: pointer;
+  font-size: 15px;
+  position: relative;
+}
+.button2:hover {
+  background: rgba(0, 0, 0, 0.367);
+  color: #fff;
+  box-shadow: 0 15px 16px rgba(255, 255, 255, 0.129),
+    0 15px 50px 16px rgba(255, 255, 255, 0.102);
+  transition: 0.3s;
+}
+.one {
+  height: 100vh;
+  width: 100%;
+  z-index: 100;
+  position: relative;
+}
+.heading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

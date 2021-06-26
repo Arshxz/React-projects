@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins, sans-serif;
+}
+button {
+  font-family: Poppins, sans-serif;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  height: 10vh;
+  margin: auto;
+  align-items: center;
+  color: #fff;
+}
+#header-style {
+  background: rgba(0, 0, 0);
+  background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.553));
+}
+.title,
+.navlinks {
+  display: flex;
+}
+.title {
+  flex: 2.5;
+  font-size: 18px;
+  margin-left: 100px;
+  word-spacing: 8px;
+  letter-spacing: 3px;
+}
+nav {
+  flex: 1;
+  margin-left: 180px;
+}
+.navlinks {
+  list-style: none;
+  display: flex;
+}
+.navlink {
+  color: #fff;
+  padding: 10px;
+  font-size: 18px;
+  text-decoration: none;
+  margin-left: 20px;
+  margin-left: 40px;
+  transition: 0.5s;
+}
+.navlink:hover {
+  color: rgba(231, 231, 231, 0.81);
+}
+.presentation,
+header {
+  /* background-image: url(/images/milky-way.jpg); */
+  position: absolute;
+  background-size: cover;
+}
+.presentation {
+  z-index: -1;
+  height: 100vh;
+  width: 100%;
+}
+.introtext {
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  letter-spacing: 3px;
+  font-size: x-large;
+  animation-name: text-up;
+  animation-duration: 2s;
+}
+@keyframes text-up {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.cta {
+  color: #fff;
+  position: absolute;
+  top: 52.5%;
+  left: 62.5%;
+  /*transform: translate(105%, -100%);*/
+  animation-name: button-opacity;
+  animation-duration: 3s;
+  animation-fill-mode: backwards;
+  animation-delay: 1.5s;
+}
+.explore {
+  background-color: rgba(255, 255, 255);
+  padding: 13px 35px;
+  border-radius: 25px;
+  border: transparent;
+  cursor: pointer;
+  font-size: 15px;
+  position: relative;
+  transition: 0.3s;
+}
+.explore:hover {
+  background-color: rgba(0, 0, 0, 0.658);
+  color: #fff;
+  transition: 0.3s;
+  box-shadow: 0 15px 16px rgba(255, 255, 255, 0.145),
+    0 15px 50px 16px rgba(255, 255, 255, 0.108);
+}
+
+/*@keyframes button-opacity {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}*/
+/*OR use animatoin fill mode to backwards*/
+@keyframes button-opacity {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
